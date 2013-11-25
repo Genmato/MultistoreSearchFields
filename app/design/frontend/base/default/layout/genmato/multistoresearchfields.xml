@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <catalogsearch_advanced_index>
+        <reference name="content">
+            <remove name="catalogsearch_advanced_form"/>
+            <block type="genmato_multistoresearchfields/advanced_form" name="searchfields_advanced_form"
+                   template="catalogsearch/advanced/form.phtml"/>
+        </reference>
+    </catalogsearch_advanced_index>
+</layout>

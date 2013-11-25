@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Genmato_MultistoreSearchFields>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Genmato_Core/>
+                <Mage_CatalogSearch/>
+            </depends>
+        </Genmato_MultistoreSearchFields>
+    </modules>
+</config>

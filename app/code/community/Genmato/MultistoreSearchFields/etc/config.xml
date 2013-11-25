@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Genmato_MultistoreSearchFields>
+            <version>1.0.0</version>
+        </Genmato_MultistoreSearchFields>
+    </modules>
+
+    <global>
+        <helpers>
+            <genmato_multistoresearchfields>
+                <class>Genmato_MultistoreSearchFields_Helper</class>
+            </genmato_multistoresearchfields>
+        </helpers>
+
+        <models>
+            <genmato_multistoresearchfields>
+                <class>Genmato_MultistoreSearchFields_Model</class>
+            </genmato_multistoresearchfields>
+        </models>
+
+        <blocks>
+            <genmato_multistoresearchfields>
+                <class>Genmato_MultistoreSearchFields_Block</class>
+            </genmato_multistoresearchfields>
+        </blocks>
+
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <genmato_multistoresearchfields>
+                    <file>genmato/multistoresearchfields.xml</file>
+                </genmato_multistoresearchfields>
+            </updates>
+        </layout>
+    </frontend>
+</config>
