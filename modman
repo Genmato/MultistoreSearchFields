@@ -1,3 +1,4 @@
 app/etc/modules/Genmato_MultistoreSearchFields.xml app/etc/modules/Genmato_MultistoreSearchFields.xml
 app/code/community/Genmato/MultistoreSearchFields/ app/code/community/Genmato/MultistoreSearchFields/
 app/design/frontend/base/default/layout/genmato/multistoresearchfields.xml app/design/frontend/base/default/layout/genmato/multistoresearchfields.xml
+demorole demorole
