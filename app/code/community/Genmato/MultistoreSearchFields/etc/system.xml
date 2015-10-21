@@ -1,19 +1,6 @@
 <?xml version="1.0"?>
 <config>
     <sections>
-        <genmato_core>
-            <groups>
-                <genmato_multistoresearchfields>
-                    <label>Multistore Search Fields</label>
-                    <frontend_type>text</frontend_type>
-                    <frontend_model>genmato_core/system_config_form_fieldset_extensions</frontend_model>
-                    <sort_order>10</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>0</show_in_website>
-                    <show_in_store>0</show_in_store>
-                </genmato_multistoresearchfields>
-            </groups>
-        </genmato_core>
         <genmato_multistoresearchfields>
             <label>Multistore Search Fields</label>
             <tab>genmato</tab>
@@ -23,9 +10,37 @@
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             <groups>
+                <extension>
+                    <label>Extension Information</label>
+                    <frontend_type>text</frontend_type>
+                    <frontend_model>genmato_core/system_config_form_fieldset_extension_details</frontend_model>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </extension>
+                <logging>
+                    <label>Logging</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>11</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <enabled translate="label comment">
+                            <label>Enable Logging</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enabled>
+                    </fields>
+                </logging>
                 <config translate="label">
                     <label>Multistore Search Fields</label>
-                    <sort_order>500</sort_order>
+                    <sort_order>100</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
